@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajin Kumar - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheets" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full bg-gray-800 p-4 flex justify-between items-center z-50">
+        <!-- Logo and Name -->
+        <div class="flex items-center space-x-2">
+            <img src="images/logo.png" alt="Logo" class="h-10 mx-auto object-cover rounded-full w-10">  <!-- Adjust size as needed -->
+            <span class="text-2xl font-bold">Sajin Kumar</span>
+        </div>
+        
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+            <button id="menu-btn" class="text-white text-2xl">&#9776;</button>
+        </div>
+
+        <!-- Navigation Links -->
+        <ul id="nav-menu" class="hidden md:flex space-x-6 text-lg">
+            <li><a href="#home" class="hover:text-purple-400">Home</a></li>
+            <li><a href="#about" class="hover:text-purple-400">About</a></li>
+            <li><a href="#skills" class="hover:text-purple-400">Skills</a></li>
+            <li><a href="#projects" class="hover:text-purple-400">Projects</a></li>
+            <li><a href="#resume" class="hover:text-purple-400">Resume</a></li>
+            <li><a href="#contact" class="hover:text-purple-400">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="h-screen flex flex-col md:flex-row items-center justify-center text-center md:text-left p-10 scroll-mt-16">
+        <div class="md:w-1/2">
+            <h1 class="text-4xl md:text-5xl font-bold text-purple-400">Hello!</h1>
+            <h2 class="text-3xl md:text-4xl mt-2">I'm <span class="text-white">Sajin Kumar</span></h2>
+            <p class="text-xl mt-2 typewriter"></p>
+        </div>
+        <img src="images/Sa.png" alt="Sajin Kumar" class="w-60 md:w-80 rounded-lg shadow-lg">
+    </section>
+
+    <!-- About -->
+    <section id="about" class="p-10 text-center scroll-mt-16">
+        <h2 class="text-3xl font-semibold">About Me</h2>
+        <p class="mt-3 text-lg">I am Sajin Kumar, a dedicated web developer and AI/ML enthusiast with a passion for innovation and problem-solving.My expertise lies in crafting user-friendly and efficient web applications while integrating artificial intelligence and machine learning to enhance functionality and decision-making.I have a strong interest in modern web frameworks, backend development and cloud-based architectures that ensure scalability and seamless user experiences.My fascination with AI and ML drives me to explore deep learning, natural language processing and predictive analytics to create intelligent systems that automate tasks, analyze data patterns and continuously improve over time.I am particularly interested in AI-driven applications like recommendation engines, chatbots and smart automation, which help bridge the gap between advanced technology and real-world usability.My goal is to develop solutions that are not only visually engaging but also impactful, addressing practical challenges through the synergy of AI and web development.Whether it is optimizing application performance, designing interactive interfaces or leveraging machine learning for innovation, I believe in continuous learning, exploring new technologies, and pushing the boundaries of what is possible in the digital landscape.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="p-10 text-center scroll-mt-16">
+        <h2 class="text-3xl font-semibold">Skills</h2>
+        <div class="mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+            <!-- C -->
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/?size=100&id=40670&format=png&color=000000" alt="C" class="w-16 h-16 object-contain">
+                <span class="mt-2 text-sm">C</span>
+            </div>
+
+            <!-- Python -->
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="C" class="w-16 h-16 object-contain">
+                <span class="mt-2 text-sm">Python</span>
+            </div>
+    
+            <!-- Java -->
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="Java" class="w-16 h-16 object-contain">
+                <span class="mt-2 text-sm">Java</span>
+            </div>
+    
+            <!-- HTML -->
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML" class="w-16 h-16 object-contain">
+                <span class="mt-2 text-sm">HTML</span>
+            </div>
+    
+            <!-- CSS -->
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS" class="w-16 h-16 object-contain">
+                <span class="mt-2 text-sm">CSS</span>
+            </div>
+    
+            <!-- JavaScript -->
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="JavaScript" class="w-16 h-16 object-contain">
+                <span class="mt-2 text-sm">JavaScript</span>
+            </div>
+    
+            <!-- Figma -->
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000" alt="Figma" class="w-16 h-16 object-contain">
+                <span class="mt-2 text-sm">Figma</span>
+            </div>
+    
+            <!-- VS code -->
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000" alt="Git" class="w-16 h-16 object-contain">
+                <span class="mt-2 text-sm">VS code</code></span>
+            </div>
+    
+            <!-- GitHub -->
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000" alt="GitHub" class="w-16 h-16 object-contain">
+                <span class="mt-2 text-sm">GitHub</span>
+            </div>
+            <!-- Tailwind css -->
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" alt="GitHub" class="w-16 h-16 object-contain">
+                <span class="mt-2 text-sm">Tailwind CSS</span>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Projects -->
+    <section id="projects" class="p-10 text-center scroll-mt-16">
+        <h2 class="text-3xl font-semibold">Projects</h2>
+        <div class="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold">Tic-Tac-Toe</h3>
+                <p>A simple game built with JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="p-10 text-center scroll-mt-16">
+        <h2 class="text-3xl font-semibold">Resume</h2>
+        <a href="M.SAJIN KUMAR RESUME.pdf" download class="bg-purple-500 px-4 py-2 rounded-lg mt-3 inline-block">Download Resume</a>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="p-10 text-center scroll-mt-16">
+        <h2 class="text-3xl font-semibold">Contact Me</h2>
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="mt-4 max-w-lg mx-auto space-y-4">
+            <!-- Web3Forms Access Key -->
+            <input type="hidden" name="access_key" value="e73fd39b-97cc-468e-afe9-63c2930a370c">
+    
+            <input type="text" name="name" placeholder="Your Name" required class="w-full p-2 bg-gray-800 border border-gray-600 rounded-lg">
+            <input type="email" name="email" placeholder="Your Email" required class="w-full p-2 bg-gray-800 border border-gray-600 rounded-lg">
+            <textarea name="message" placeholder="Your Message" required class="w-full p-2 bg-gray-800 border border-gray-600 rounded-lg"></textarea>
+    
+            <button type="submit" class="bg-purple-500 px-4 py-2 rounded-lg w-full">Send</button>
+    
+            <!-- Success Message -->
+            <p id="form-status" class="hidden text-green-500 font-semibold mt-2"></p>
+        </form>
+    </section>
+    <script>
+    document.getElementById("contact-form").addEventListener("submit", async function (event) {
+        event.preventDefault(); // Prevent default form submission
+    
+        const form = event.target;
+        const formData = new FormData(form);
+        const formStatus = document.getElementById("form-status");
+    
+        try {
+            const response = await fetch(form.action, {
+                method: "POST",
+                body: formData,
+            });
+    
+            const result = await response.json();
+            
+            if (result.success) {
+                formStatus.textContent = "Message sent successfully!";
+                formStatus.classList.remove("hidden");
+                formStatus.classList.add("text-green-500");
+                form.reset(); // Clear form fields
+            } else {
+                formStatus.textContent = "Error sending message. Try again!";
+                formStatus.classList.remove("hidden");
+                formStatus.classList.add("text-red-500");
+            }
+        } catch (error) {
+            formStatus.textContent = "Something went wrong!";
+            formStatus.classList.remove("hidden");
+            formStatus.classList.add("text-red-500");
+        }
+    });
+</script>
+
+</body>
+</html>
